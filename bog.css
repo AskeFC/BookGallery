@@ -1,0 +1,156 @@
+@-webkit-keyframes spinner {
+    from { -webkit-transform: rotateY(-3deg); display: block; }
+    to { -webkit-transform: rotateY(-179deg); display: block; }
+}
+@-moz-keyframes spinner {
+    from { -moz-transform: rotateY(-3deg); display: block; }
+    to { -moz-transform: rotateY(-179deg); display: block; }
+}
+@-o-keyframes spinner {
+    from { -o-transform: rotateY(-3deg); display: block; }
+    to { -o-transform: rotateY(-179deg); display: block; }
+}
+@keyframes spinner {
+    from { transform: rotateY(-3deg); display: block; }
+    to { transform: rotateY(-179deg); display: block; }
+}
+@-ms-keyframes spinner {
+    from { transform: rotateY(-3deg); display: block; }
+    to { transform: rotateY(-179deg); display: block; }
+}
+#spisebord {
+    margin: 40px;
+}
+#stage {
+    -webkit-perspective: 2000px;
+    -moz-perspective: 2000px;
+    -o-perspective: 2000px;
+    perspective: 2000px;
+    -ms-perspective: 2000px;
+
+    -webkit-perspective-origin: 50% 50%;
+    -moz-perspective-origin: 50% 50%;
+    -o-perspective-origin: 50% 50%;
+    perspective-origin: 50% 50%;
+    -ms-perspective-origin: 50% 50%;
+}
+#spinner {
+    margin-left: 20px;
+    width: 674px;
+    height: 412px;
+    border-width: 10px;
+    border-color: #000;
+    border-style: solid;
+    border-radius: 6px;
+    background-color: #EEE;
+
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -o-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    box-shadow: 0 0 0 1px #888, 0 0 8px #000;
+    -moz-box-shadow: 0 0 0 1px #888, 0 0 8px #000;
+    -webkit-box-shadow: 0 0 0 1px #888, 0 0 8px #000;
+}
+.spinturned {
+    display: block !important;
+
+    -webkit-transform: rotateY(-180deg) !important;
+    -moz-transform: rotateY(-180deg) !important;
+    -o-transform: rotateY(-180deg) !important;
+    transform: rotateY(-180deg) !important;
+    -ms-transform: rotateY(-180deg) !important;
+}
+.spinnext {
+    display: block !important;
+
+    -webkit-transform: rotateY(-2deg) !important;
+    -moz-transform: rotateY(-2deg) !important;
+    -o-transform: rotateY(-2deg) !important;
+    transform: rotateY(-2deg) !important;
+    -ms-transform: rotateY(-2deg) !important;
+}
+.spinanim {
+    display: block !important;
+
+    -webkit-animation-name: spinner;
+    -moz-animation-name: spinner;
+    -o-animation-name: spinner;
+    animation-name: spinner;
+    -ms-animation-name: spinner;
+
+    -webkit-animation-timing-function: linear;
+    -moz-animation-timing-function: linear;
+    -o-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -ms-animation-timing-function: linear;
+
+    -webkit-animation-duration: 3s;
+    -moz-animation-duration: 3s;
+    -o-animation-duration: 3s;
+    animation-duration: 3s;
+    -ms-animation-duration: 3s;
+
+    -webkit-animation-delay: 0s;
+    -moz-animation-delay: 0s;
+    -o-animation-delay: 0s;
+    animation-delay: 0s;
+    -ms-animation-delay: 0s;
+
+    -webkit-animation-fill-mode: none;
+    -moz-animation-fill-mode: none;
+    -o-animation-fill-mode: none;
+    animation-fill-mode: none;
+    -ms-animation-fill-mode: none;
+}
+.spinanim:hover {
+    -webkit-animation-play-state: paused;
+    -moz-animation-play-state: paused;
+    -o-animation-play-state: paused;
+    animation-play-state: paused;
+    -ms-animation-play-state: paused;
+}
+#spinner img {
+    display: none;
+
+    padding-left: 20px;
+    left: 337px;
+    height: 410px;
+    width: 315px;
+    position: absolute;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #BBB;
+    background: rgba(255,255,255,0.8);
+
+    box-shadow: inset 0 0 20px rgba(0,0,0,0.2);
+    -moz-box-shadow: inset 0 0 20px rgba(0,0,0,0.2);
+    -webkit-box-shadow: inset 0 0 20px rgba(0,0,0,0.2);
+
+    -webkit-transform-origin: 0% 50%;
+    -moz-transform-origin: 0% 50%;
+    -o-transform-origin: 0% 50%;
+    transform-origin: 0% 50%;
+    -ms-transform-origin: 0% 50%;
+
+    -webkit-backface-visibility: visible;
+    -moz-backface-visibility: visible;
+    -o-backface-visibility: visible;
+    backface-visibility: visible;
+    -ms-backface-visibility: visible;
+
+    -webkit-transform: rotateY(0deg);
+    -moz-transform: rotateY(0deg);
+    -o-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+}
+#spinner img:first-child {
+    display: block;
+
+    -webkit-transform: rotateY(-1deg);
+    -moz-transform: rotateY(-1deg);
+    -o-transform: rotateY(-1deg);
+    transform: rotateY(-1deg);
+    -ms-transform: rotateY(-1deg);
+}
