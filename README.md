@@ -1,6 +1,8 @@
 # BookGallery
 Booklike gallery for Web in Html5, Css3 & JavaScript, it is ONLY for browsers supporting the latest ([ATOW](http://www.acronymfinder.com/Slang/ATOW.html))  [W3C standards](https://www.w3.org/standards/). If you encounter any problems, first try updating your browser, OS and drivers. If it still persist then try again with something like [Mozilla](https://www.mozilla.org)s [Firefox](https://www.mozilla.org/en-US/firefox/) browser.
 
+##### All pictures herein are copyright of their respective owners. Since they have been shared and reshared multiple times at major picture exchange websites, I unfortunately have no idea who the original author is and thus cannot contact them for approval, if you have any complaints just throw me a mail and I will remove all traces of the object in question.
+
 <br>
 
 ### TODO
